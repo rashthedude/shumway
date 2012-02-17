@@ -1,4 +1,4 @@
-var Bytecode = (function () {
+var Bytecode = (function (){
   function Bytecode(code) {
     var op = code.readU8();
     this.op = op;
